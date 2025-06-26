@@ -12,7 +12,7 @@
     <child link="skeleton__forearm"/>
     <origin xyz="0.29099  0.0061  -0.0123" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0.0" upper="1.5707963705062866" effort="0.0" velocity="0.0"/>
+    <limit lower="0.0" upper="2.617993878" effort="0.0" velocity="0.0"/>
   </joint>
   <joint name="skeleton__hand_joint_1" type="fixed">
     <parent link="skeleton__forearm"/>
