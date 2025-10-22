@@ -21,7 +21,7 @@
     <axis xyz="0 0 1"/>
     <limit lower="0.0" upper="1.5707963705062866" effort="0.0" velocity="0.0"/>
   </joint>
-  <joint name="skeleton__proximal_joint" type="fixed">
+  <joint name="skeleton__proximal_joint" type="revolute">
     <parent link="skeleton__hand"/>
     <child link="skeleton__proximal"/>
     <origin xyz="0.0941  0.002   0.00495" rpy="0.1847  -0.15172  0.24123"/>
